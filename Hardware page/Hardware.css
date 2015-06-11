@@ -11,7 +11,7 @@ body {background-image: url("http://www.loschavezmexicangrille.com/wp-content/up
 	border-radius: 100px;
 }
 
-#one{ transition:all .8s ease;} #one:hover{background-color:#336666;}
+#one{ transition:all .8s ease;} #one:hover{background-color:#336666;transform: rotate(2deg);} 
 
 #two{
 	height: 20px;
@@ -20,7 +20,7 @@ body {background-image: url("http://www.loschavezmexicangrille.com/wp-content/up
 	background-color: #CCFF33 ;
 	border-radius: 100px;
 }
-#two{ transition:all .8s ease;} #two:hover{background-color:#336666;}
+#two{ transition:all .8s ease;} #two:hover{background-color:#336666;transform: rotate(2deg);} 
 
 
 #three{
@@ -31,7 +31,7 @@ body {background-image: url("http://www.loschavezmexicangrille.com/wp-content/up
 	border-radius: 100px;
 }
 
-#three{ transition:all .8s ease;} #three:hover{background-color:#336666;}
+#three{ transition:all .8s ease;} #three:hover{background-color:#336666;transform: rotate(2deg);} 
 
 #four{
 	height: 20px;
@@ -40,7 +40,7 @@ body {background-image: url("http://www.loschavezmexicangrille.com/wp-content/up
 	background-color: #CCFF33 ;
 	border-radius: 100px;
 }
-#four{ transition:all .8s ease;} #four:hover{background-color:#336666;}
+#four{ transition:all .8s ease;} #four:hover{background-color:#336666;transform: rotate(2deg);} 
 
 #java{
 	height: 20px;
@@ -49,8 +49,7 @@ body {background-image: url("http://www.loschavezmexicangrille.com/wp-content/up
 	background-color: #CCFF33 ;
 	border-radius: 100px;
 }
-#java{ transition:all .8s ease;} #four:hover{background-color:#336666;}
-
+#java{ transition:all .8s ease;} #four:hover{background-color:#336666;transform: rotate(2deg);} 
 
 #five{
 	height: 1200px;
@@ -75,8 +74,8 @@ background-color: #993333 ; opacity: 0.8}
 	right:7%;
 	margin-left:-254px;
 	position: fixed;
-	height: 140px;
-	width: 200px;
+	height: 200px;
+	width: 220px;
 	border: 2px solid black;
 	background-color: #993333 ;
 	opacity: 0.8;
@@ -87,3 +86,61 @@ background-color: #993333 ; opacity: 0.8}
 	
 	
 	
+ #calc{
+	height: 20px;
+	width: 100px;
+	border: 2px solid black;
+	background-color: #CCFF33;
+	border-radius: 100px;
+}
+
+#calc{ transition:all .8s ease;} #calc:hover{background-color:#336666;transform: rotate(2deg);} 
+    
+ #adventure{
+	height: 20px;
+	width: 100px;
+	border: 2px solid black;
+	background-color: #CCFF33;
+	border-radius: 100px;
+}
+
+#adventure{ transition:all .8s ease;} #adventure:hover{background-color:#336666;transform: rotate(2deg);} 
+
+
+   
+ #game{
+	height: 20px;
+	width: 100px;
+	border: 2px solid black;
+	background-color: #CCFF33;
+	border-radius: 100px;
+}
+
+#game{ transition:all .8s ease;} #game:hover{background-color:#336666;transform: rotate(2deg);} 
+    
+
+
+  
+ #vindinium{
+	height: 20px;
+	width: 100px;
+	border: 2px solid black;
+	background-color: #CCFF33;
+	border-radius: 100px;
+}
+
+#vindinium{ transition:all .8s ease;} #vindinium:hover{background-color:#336666;transform: rotate(2deg);} 
+
+#thanks{
+	height: 20px;
+	width: 100px;
+	border: 2px solid black;
+	background-color: #CCFF33;
+	border-radius: 100px;
+}
+
+#thanks{ transition:all .8s ease;} #thanks:hover{background-color:#336666;transform: rotate(2deg);} 
+
+    
+    
+    

@@ -32,32 +32,35 @@
 
 
 		<div id="navbar">
-		    <div id="one">
+		    
+            <div id="one">
 		          <a href="https://drink-taxi.codio.io/About me page/About me.html" > <strong> About me </strong> </a>
 		            
 		    </div>
 		
-            <div id="two"> <a href="https://drink-taxi.codio.io/Intro page/intropage.html"> <strong> Intro </strong> </a> </div>
+            <div id="two"> <a href="https://drink-taxi.codio.io/"> <strong> Intro </strong> </a> </div>
             <div id="three"><a href="https://drink-taxi.codio.io/Hardware page/Hardware_1.html"> <strong> Hardware </strong> </a> </div>
             <div id="four"> <a href="https://drink-taxi.codio.io/HTML page/Html.html"> <strong> HTML page </strong> </a> </div> 
             <div id="calc"> <a href="https://drink-taxi.codio.io/Calculator/calc.html"> <strong> Calculator </strong> </a> </div>
             <div id="adventure"> <a href="https://drink-taxi.codio.io/Our Adventure/ouradventure.html"> <strong> Rpg story </strong> </a> </div>
             <div id="game"> <a href="https://liquid-consul.codio.io/W6.html"> <strong> Zombie game </strong> </a> </div>
-             <div id="vindinium"> <a href="https://liquid-consul.codio.io/W6.html"> <strong> Vindinium </strong> </a> </div>
+             <div id="vindinium"> <a href="https://drink-taxi.codio.io/Vindinium/Vindinium.html"> <strong> Vindinium </strong> </a> </div>
+            <div id="thanks"> <a href="https://drink-taxi.codio.io/comp%20science%20page/comp.html"> <strong> Thanks! </strong> </a> </div>
         </div>
 	
     
     
        <img src="Screenshot 2015-06-09 at 11.47.07 AM.png" id="picture">
         <img src="Screenshot 2015-06-09 at 1.24.42 PM.png" id="picture2">
+        
   
        <br />
        <br />
        
       
-        <div id="five">  <h2> What is Vindinium? </h2>  Vindinium is a turn based game that revolves around stealing mines and accumulating more gold than the other players. Each turn, a given player is rewarded two gold per number of mines they are currently in possesion of. 
+        <div id="five">  <h2> What is Vindinium? </h2>  Vindinium is a turn based game that revolves around stealing mines and accumulating more gold than the other players. Each turn, a given player is rewarded one gold per number of mines they are currently in possesion of. 
         To aquire mines, players can either steal a free mine on the board, or the mine of another players. Players can also kill other players to aquire the mines of the player they killed. 
-        When a players health is low, there are taverns on the map where they can heal themselves for the price of two gold. by the end of 1200 turns, the player with the most gold is declaired the winner.
+        When a players health is low, there are taverns on the map where they can heal themselves for the price of two gold. By the end of 1200 turns, the player with the most gold is declaired the winner.
         <br />
         <br />
             What makes Vindinium interesting and unique is the fact that the players themselves are not controlled by people, yet AI that the players coded themselves! 
@@ -65,16 +68,30 @@
             This can be acheived by programing different stratagies for a given bot, such as fleeing to a tavern when the bots health has reached a certain threshold, another stratagy that could be programed into a bot to improve it's ability during rounds is too attack the player who is in possesion of the most mines on the feild.
             Due to the constantly changing map the bots play on, it is hard to program a bot that consistantly wins under any condition. 
            <br />
-        <br />
-            The bots AI revolves around the conditions of the game and the situation it is in. One example of this is having a bot steal mines. For my bot in particular, it steals mines when the task is equal to "steal mines". function only runs when there are two mines left on the feild. This sort of stratagy can really affect the outcome of the game!
+             <img src="Screenshot 2015-06-10 at 1.36.54 PM.png">
+        
             
+            The bots AI revolves around the conditions of the game and the situation it is in. One example of this is having a bot steal mines. For my bot in particular, it steals mines when the task is equal to "steal mines". function only runs when there are two mines left on the feild. This sort of stratagy can really affect the outcome of the game!
+            <br />
+            <img src="http://s3.amazonaws.com/digitaltrends-uploads-prod/2014/01/google-deepmind-artificial-intelligence.jpg" id="picture3">
             
         </div>  
             
         <div id="six"> <h2> More about AI </h2>  
         <br /> 
             Today AI is being used in many different ways, mostly in businesses that revolve around the tech industry, but one surprising way AI is being implemented into businesses is through comercials, infact there are curently a number of bots that are capable of writting commercial scripts! for more information read the article <a href ="http://www.theguardian.com/media-network/2015/jun/08/artificial-intelligence-ai-created-adverts-computers">here.</a>
-        
+           <br /> 
+          <br /> 
+            The images below show how my AI was ran in vindinium. 
+            <br />
+             <img src="Screenshot 2015-06-10 at 2.29.21 PM.png" id="picture4">
+            <br />
+             This portion basically shows when my bot runs it's task, which is to steal mines. The array at the top of the page depicts all the mines on the feild that are owned by all of the other bots. When my task is ran however, it searches through the array of free mines, and when there are only two free mines left on the feild, the folowing function will run:
+            <br />
+              <img src="Screenshot 2015-06-10 at 2.29.47 PM.png" id="picture3">
+            <br />
+            This code basically enables my bot to find and capture the nearest unowned mine! In this respect, my AI is pretty basic, in the future, no one knows what new findings will affect how AI runs.
+          
         </div>
 
 <br />

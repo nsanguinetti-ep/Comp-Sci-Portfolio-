@@ -37,7 +37,7 @@ h1 img{height:250px;width:200px;}
 	border-radius: 100px;
 }
 
-#one{ transition:all .8s ease;} #one:hover{background-color:#336666;}
+#one{ transition:all .8s ease;} #one:hover{background-color:#336666;transform: rotate(2deg);} 
 
 #two{
 	height: 20px;
@@ -46,7 +46,7 @@ h1 img{height:250px;width:200px;}
 	background-color: #CCFF33 ;
 	border-radius: 100px;
 }
-#two{ transition:all .8s ease;} #two:hover{background-color:#336666;}
+#two{ transition:all .8s ease;} #two:hoverhover{background-color:#336666;transform: rotate(2deg);} 
 
 
 #three{
@@ -57,7 +57,7 @@ h1 img{height:250px;width:200px;}
 	border-radius: 100px;
 }
 
-#three{ transition:all .8s ease;} #three:hover{background-color:#336666;} 
+#three{ transition:all .8s ease;} #three:hoverhover{background-color:#336666;transform: rotate(2deg);} 
 
 #four{
 	height: 20px;
@@ -66,7 +66,7 @@ h1 img{height:250px;width:200px;}
 	background-color: #CCFF33 ;
 	border-radius: 100px;
 }
-#four{ transition:all .8s ease;} #four:hover{background-color:#336666;}
+#four{ transition:all .8s ease;} #four:hover{background-color:#336666;transform: rotate(2deg);} 
 
 
 
@@ -113,7 +113,7 @@ float: left}
 	border-radius: 100px;
 }
 
-#calc{ transition:all .8s ease;} #calc:hover{background-color:#336666;}
+#calc{ transition:all .8s ease;} #calc:hover{background-color:#336666;transform: rotate(2deg);} 
     
  #adventure{
 	height: 20px;
@@ -123,7 +123,7 @@ float: left}
 	border-radius: 100px;
 }
 
-#adventure{ transition:all .8s ease;} #adventure:hover{background-color:#336666;}
+#adventure{ transition:all .8s ease;} #adventure:hover{background-color:#336666;transform: rotate(2deg);} 
 
 
    
@@ -135,7 +135,7 @@ float: left}
 	border-radius: 100px;
 }
 
-#game{ transition:all .8s ease;} #game:hover{background-color:#336666;}
+#game{ transition:all .8s ease;} #game:hover{background-color:#336666;transform: rotate(2deg);} 
     
 
 
@@ -148,7 +148,7 @@ float: left}
 	border-radius: 100px;
 }
 
-#vindinium{ transition:all .8s ease;} #vindinium:hover{background-color:#336666;}
+#vindinium{ transition:all .8s ease;} #vindinium:hover{background-color:#336666;transform: rotate(2deg);} 
     
     
     
