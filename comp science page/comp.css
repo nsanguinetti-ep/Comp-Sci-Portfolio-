@@ -139,7 +139,7 @@ a:hover {
 	border-radius: 100px;
 }
 
-#thanks{ transition:all .8s ease;} #vindinium:hover{background-color:#336666;transform: rotate(2deg);} 
+#thanks{ transition:all .8s ease;} #thanks:hover{background-color:#336666;transform: rotate(2deg);} 
 
 	
 	
